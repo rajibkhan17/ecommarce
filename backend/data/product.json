@@ -1,0 +1,61 @@
+[
+    {
+        "name" : "This is product number one for test our app",
+        "price" : "45.89",
+        "description" : "description for our product woth ienter intor datbase",
+        "rating" : 4.5,
+        "images" : [
+            {
+                "public_id" : "someidalskfj",
+                "url" : "https/asldkfj"
+            }
+        ],
+        "category" : "Electronices",
+        "seller" : "Ebay",
+        "stock" : 40,
+        "numberOfReviews": 32,
+        "reviews" : []
+    },
+    {
+        "name" : "This is product number two for test our app",
+        "price" : "45.89",
+        "description" : "description for our product woth ienter intor datbase",
+        "rating" : 4.5,
+        "images" : [
+            {
+                "public_id" : "someidalskfj",
+                "url" : "https/asldkfj"
+            }
+        ],
+        "category" : "Electronices",
+        "seller" : "Ebay",
+        "stock" : 50,
+        "numberOfReviews": 32,
+        "reviews" : []
+    },
+    {
+        "name" : "This is product number three for test our app",
+        "price" : "45.89",
+        "description" : "description for our product woth ienter intor datbase",
+        "rating" : 4.5,
+        "images" : [
+            {
+                "public_id" : "someidalskfj",
+                "url" : "https/asldkfj"
+            },
+            {
+                "public_id" : "someidalskfj",
+                "url" : "https/asldkfj"
+            },
+            {
+                "public_id" : "someidalskfj",
+                "url" : "https/asldkfj"
+            }
+        ],
+        "category" : "Electronices",
+        "seller" : "Ebay",
+        "stock" : 20,
+        "numberOfReviews": 32,
+        "reviews" : []
+    }
+]
