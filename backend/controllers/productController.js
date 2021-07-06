@@ -4,16 +4,18 @@ const catchAsyncErrors = require('../middlewares/catchAsyncErrors')
 const APIFeatures = require('../utils/apiFeatures')
 
 
-// get all products : =>  /api/v1//products?ketword=samsung
+// get all products : =>  /api/v1//products?keyword=samsung
 exports.getProducts = catchAsyncErrors(async (req, res, next) => {
       
     const apiFeatures = new APIFeatures (Product.find(), req.query)
                         .search()
+                        .filter()
 
     const products = await apiFeatures.query;
 
     res.status(200).json({
         success: true,
+
         cout : products.length,
         products
     })
